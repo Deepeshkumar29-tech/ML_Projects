@@ -6,7 +6,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_groq import ChatGroq
 from PyPDF2 import PdfReader
 
-os.environ["GROQ_API_KEY"]="YOUR_GROQ_API_KEY"
+os.environ["GROQ_API_KEY"]="YOUR_API_KEY"
 llm = ChatGroq(
     temperature=0,
     model_name="openai/gpt-oss-20b"
